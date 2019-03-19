@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bajaj",
+  "version": "1.0.0",
+  "description": "Cordova Bajaj Plugin",
+  "cordova": {
+    "id": "cordova-plugin-bajaj",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "bajaj",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

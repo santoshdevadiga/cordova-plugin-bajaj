@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-bajaj"
+    version="1.0.0">
+    <name>Bajaj</name>
+    <description>Cordova Bajaj Plugin</description>
+    <license></license>
+    <keywords>cordova,bajaj</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <js-module src="www/bajaj.js" name="bajaj">
+        <clobbers target="bajaj" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Bajaj" >
+                <param name="android-package" value="org.apache.cordova.bajaj.Bajaj"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Bajaj.java" target-dir="src/org/apache/cordova/bajaj" />
+		
+		<source-file src="src/android/CryptoLib.java" target-dir="src/org/apache/cordova/bajaj" />
+    </platform>
+
+</plugin>
