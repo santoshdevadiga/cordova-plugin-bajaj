@@ -8,7 +8,7 @@
     <description>Cordova Bajaj Plugin</description>
     <license></license>
     <keywords>cordova,bajaj</keywords>
-    <repo></repo>
+    <repo>https://github.com/santoshdevadiga/cordova-plugin-bajaj.git</repo>
     <issue></issue>
 
     <js-module src="www/bajaj.js" name="bajaj">
